@@ -1,0 +1,22 @@
+Napravimo rest aplikacija na koju se povezuje i koriste se njene funkcionalnosti poput rada
+sa bazom podataka i prikazivanja razlicitih podataka iz tog rest-api-ja na nasoj aplikaciji.
+
+Rest sluzi za lak nacin komunikacije sa serverom. Lakse nam je da imamo direktnu putanju (link) nego da 
+SQL upitima vadimo podatke iz baze. Za to nam sluzi Rest.
+
+U aplikaciji u primeru imamo 4 GET putanje i po 2 POST, PUT i DELETE putanje (CRUD operacije). Pogledati sliku 01.
+Novosti iz baze u JSON formatu mozemo videti na slici 02. Na slici 03 se vidi baza na serveru odakle su ucitane novosti.
+Kada na kraju putanje pise recimo @id, to znaci da za recimo DELETE putanju na kraju treba upisati id.
+"@" znaci da treba upisati konkretnu vrednost (slika 02). 
+
+Za testiranje izvrsavanja CRUD zahteva mozemo koristiti aplikaciju na slici 04.
+
+KORISCENJE REST-API PUTANJA
+
+Da bi koristili gorepomenute Rest-api putanje u nasoj aplikaciji u okviru web stranice, a kako bi imali
+efikasnu komunikacijom sa bazom na serveru, koristimo AJAX. AJAX asinhrono salje zahteve sta je na 
+nasoj formi potrebno da se prikaze. AJAX mozemo implementirati sami, a mozemo koristiti i JQuery,
+koji linkom mozemo uvezati u nasu aplikaciju, sto se vidi na slici 05. Na internetu se ova skripta moze
+naci tako sto se u pretrazivacu ukuca "jquery cdn".
+
+Sada mozemo implementirati funkcije pomocu jquery-ja (koristimo njegove f-je) za POST i GET. 

@@ -1,0 +1,16 @@
+restapi-test je repozitorijum.
+Folder ima ulogu repozitorijuma koji ce se preslikati na GutHub.
+Potrebno je klonirati svoj repozitorijum na GitHub - Clone.
+Promene na lokalu se stejdzuju, pripremaju na dalju obradu - Stage.
+Promenu je potrebno komitovati, snimiti ih na repozitorijum na GitHub-u - Commit
+Promene na lokalu se ne vide na GitHub-u dok se ne inicijalno pusuju - Push.
+Redosled: Stage - Commit - Push - Pull
+Pull sluzi da se kod podeli sa saradnikom na projektu, na nekom ko radi na njemu sa nama
+
+Dakle, klik na Source Control (levo, ispod lupe - Search), pa klik na "+" pored naziva repozitorijuma radi Stage-ovanja svih promena,
+zatim pre Commit-ovanja ide poruka (opis) i Commit na stiklicu pored naziva repozitorijuma. Na kraju je potrebno otici na
+tri tackice pored naziva repozitorijuma i kliknuti na Push. Nakon ovoga sve promene ce biti sacuvane na GitHub-u.
+
+Na GitHub-u mozemo videti drvo, glavnu granu, i sporedne grane za razvoj novih funkcionalnosti.
+Na sporednim granama mozemo raditi promene i testirati bez uticaja na glavni projekat. 
+Na kraju se sve moze Merge-ovati i dobiti krajnji projekat. 
