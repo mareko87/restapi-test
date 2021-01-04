@@ -1,0 +1,13 @@
+Kreiramo funkciju za slanje zahteva. Uslov je da zahtev bude cekiran, odnosno da length ulaza ne bude 0.
+Ovo vazi i za odabir tabele i za vrstu zahteva. Tabeli pristupamo preko id-a.
+HTTP zahtev realizujemo preko switch grananja. Pogledati sliku 06.
+Rezultat koji dobijamo iz baze je u JSON formatu koga preko funkcije stringify pretvaramo u stringify
+koji dodeljujemo elementu html forme radi prikaza.
+
+"$" u Javascript-u sluzi za koriscenje JQuery biblioteke. Na slici 06 se vidi koriscenje Rest-api linka za 
+realizaciju GET zahteva ka bazi na serveru.
+
+Za POST zahtev se pristupa poljima fomrme, uzima se vrednost, pakuje u JSON pre azuriranja tabele u bazi.
+Link koji se prosledjuje JQuery funkciji kao parametar za get/post je identican. Pogledati sliku 07. 
+
+Varijanta AJAX POST zahteva prikazana je na slici 08.
